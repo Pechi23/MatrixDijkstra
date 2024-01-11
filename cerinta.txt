@@ -1,0 +1,12 @@
+Se da o matrice cu valori mai mari sau egale cu 0, orice valoare pozitiva reprezinta un obstacol, iar costul de depasire al acestui obstacol este chiar valoarea din matrice.
+Se cere drumul cel mai scurt de la locatia (0,0) la (n-1, n-1)
+  
+exemplu:
+input:
+0 1 0
+0 2 3
+0 2 0
+
+output: 2
+
+explicatie: drumul cel mai scurt din (0,0) in (2,2) este: (0,0) (0,1) (0,2) (1,2) (2,2) cu depasirea unui singur obstacol de cost 2
